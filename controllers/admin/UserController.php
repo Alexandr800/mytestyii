@@ -9,7 +9,7 @@ class UserController extends Controller{
 
    public function actionIndex() {
 
-       return 'ADMIN';
+       return $this->render('index');
 
    }
 
